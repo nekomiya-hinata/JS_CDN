@@ -1,0 +1,138 @@
+.page-item a, .page-btn a {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    padding: 5px 0 !important;
+    border: none;
+    border-radius: 10px !important;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.page-item a:not(:first-child), .page-btn a:not(:first-child) {
+    margin-left: 10px
+}
+
+.previous-page a, .next-page a,
+.first-page a, .last-page a {
+    border-radius: 50% !important;
+    display: inline-block;
+    position: relative;
+    line-height: 1.5;
+}
+
+.previous-page i, .next-page i,
+.first-page i, .last-page i {
+    margin: 0 !important;
+    width: 30px;
+    text-align: center;
+}
+
+/*搜索相关CSS*/
+.bg-light {
+    color: #58666e !important;
+    background-color: #edf1f2 !important;
+}
+
+.transparent {
+    background: 0 0 !important;
+}
+
+.padder1 {
+    padding: 10px 15px !important;
+}
+
+.padder2 {
+    padding: 10px 0 !important;
+}
+
+.no-border {
+    border-color: transparent;
+    border-width: 0;
+}
+
+.input-group .form-control:first-child {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.navbar-form {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0 !important;
+    vertical-align: middle;
+}
+
+.navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+    position: relative;
+    border-collapse: separate;
+}
+
+.navbar-form .input-group > .form-control {
+    width: 100%;
+}
+
+.navbar-form .input-group .form-control, .navbar-form .input-group, .navbar-form .input-group {
+    width: auto;
+}
+
+.navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.navbar-form {
+    margin-left: 5px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+}
+
+.rounded {
+    border-radius: 500px !important;
+}
+
+.rounded-right {
+    border-top-right-radius: 500px !important;
+    border-bottom-right-radius: 500px !important;
+}
+
+@media (max-width: 576px) {
+    .change {
+        display: grid !important;
+    }
+
+    .navbar-form {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .navbar-form .form-group {
+        display: block;
+    }
+
+    .navbar-form .input-group {
+        display: flex;
+    }
+}
+
+#search_input:hover, #mail_filter:hover {
+    background: #e0e6ed !important;
+    border-color: #e0e6ed !important;
+    transition: .25s;
+}
