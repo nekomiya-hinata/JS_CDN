@@ -136,3 +136,50 @@
     border-color: #e0e6ed !important;
     transition: .25s;
 }
+
+/* 捐赠相关CSS */
+.paycode-btn {
+    position: absolute;
+    z-index: 11;
+    top: -12em;
+    right: 1em;
+    cursor: pointer;
+    transform-origin: 4em bottom;
+    -webkit-animation: shake 5s ease-out infinite;
+    animation: shake 5s ease-out infinite;
+}
+
+.pay-select {
+    width: auto;
+    margin: 0 23px 0 25px;
+    padding: 0 3px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 800;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.paycode {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mao {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 74px;
+    left: 65%;
+    z-index: 999;
+    background-image: url(https://www.z4a.net/images/2019/11/08/mao.png);
+    transform: rotate(-90deg);
+}
+
+.desc {
+    font-size: 11px;
+    margin-top: 10px;
+    color: #666;
+}

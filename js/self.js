@@ -1,3 +1,15 @@
+function wx() {
+    ali.style.marginTop = '0';
+    pay1.style.backgroundColor = 'rgba(67,206,116,0.5)';
+    pay2.style.backgroundColor = 'rgba(55,137,232,0)';
+}
+
+function zfb() {
+    ali.style.marginTop = '-224px';
+    pay1.style.backgroundColor = 'rgba(67,206,116,0)';
+    pay2.style.backgroundColor = 'rgba(55,137,232,0.5)';
+}
+
 $("#change_bar").click(function () {
     let body = $("body");
     if ($(window).width() > 1024) {
