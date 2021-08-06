@@ -174,7 +174,7 @@
     top: 74px;
     left: 65%;
     z-index: 999;
-    background-image: url(https://www.z4a.net/images/2019/11/08/mao.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/nekomiya-hinata/js_cdn@v1.3/data/mao.png);
     transform: rotate(-90deg);
 }
 
