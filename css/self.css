@@ -168,14 +168,15 @@
 }
 
 .mao {
-    width: 120px;
-    height: 120px;
-    position: relative;
-    top: 74px;
-    left: 65%;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 260px;
+    left: -27px;
     z-index: 999;
     background-image: url(https://cdn.jsdelivr.net/gh/nekomiya-hinata/js_cdn@v1.3/data/mao.png);
-    transform: rotate(-90deg);
+    background-size: cover;
+    /* transform: rotate(-90deg); */
 }
 
 .desc {
