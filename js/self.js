@@ -29,12 +29,7 @@ function hasScrollbar() {
 
 $(window).resize(function () {
     let body = $("body");
-    let min_width;
-    if (hasScrollbar()) {
-        min_width = 1007;
-    } else {
-        min_width = 1024;
-    }
+    let min_width = 1024;
     if ($(window).width() <= min_width) {
         if (body.hasClass("sidebar-show")) {
             body.removeClass("sidebar-show");
