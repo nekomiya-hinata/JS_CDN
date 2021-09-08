@@ -240,11 +240,6 @@ img {
     width: 30%;
 }
 
-a:hover, a:focus {
-    color: #fff;
-    text-decoration: none;
-}
-
 .wx-tip {
     position: fixed;
     top: 0;
