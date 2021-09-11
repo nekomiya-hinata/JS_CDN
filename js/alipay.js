@@ -124,16 +124,16 @@ function judgeState() {
         success: function (data) {
             if (data.success === true) {
                 if (data.result === 1) {
+                    let notice = $("#btn-notice");
+                    notice.empty();
+                    notice.append("支付完成！");
                     clearInterval(task);
                     task = null;
                     swal.fire({
                         title: '支付结果',
-                        text: "恭喜您已成功支付 " + Number($("#month").val() * 2.0).toFixed(2) + " 元，感谢您的捐赠，请查收通知邮件，若长时间未收到请检查垃圾邮件或进行反馈！",
+                        text: "恭喜您已成功支付 " + Number($("#month").val() * 2.0).toFixed(2) + " 元，感谢您的捐赠，咱又有更多的动力维护项目啦！",
                         icon: 'success'
                     }).then(function () {
-                        let notice = $("#btn-notice");
-                        notice.empty();
-                        notice.append("支付完成！");
                         window.location = '/code';
                     });
                 }
