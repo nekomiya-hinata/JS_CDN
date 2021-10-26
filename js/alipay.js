@@ -81,7 +81,7 @@ $('#topup-confirm').click(function () {
                 } else {
                     qrUrl = data.result.qrCode;
                 }
-                $("#money1").text(month * 2.0);
+                $("#money1").text(month * 2.5);
 
                 if (mobile && !isWeixin() && !isQQAndroid()) {
                     // 手机端且不是微信浏览器且不是安卓QQ时支持一键打开支付宝
@@ -131,7 +131,7 @@ function judgeState() {
                     task = null;
                     swal.fire({
                         title: '支付结果',
-                        text: "恭喜您已成功支付 " + Number($("#month").val() * 2.0).toFixed(2) + " 元，感谢您的捐赠，咱又有更多的动力维护项目啦！",
+                        text: "恭喜您已成功支付 " + Number($("#month").val() * 2.5).toFixed(2) + " 元，感谢您的捐赠，咱又有更多的动力维护项目啦！",
                         icon: 'success'
                     }).then(function () {
                         window.location = '/code';
